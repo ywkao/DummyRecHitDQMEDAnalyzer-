@@ -9,7 +9,8 @@ process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 process.source = cms.Source("PoolSource",
     # replace 'myfile.root' with the source file you want to use
     fileNames = cms.untracked.vstring(
-        'file:myfile.root'
+        #'file:myfile.root'
+        'file:/eos/user/y/ykao/www/HGCAL_Geant4_project/testbeam_positron_D86_R90To130_E100/step2.root'
     )
 )
 
